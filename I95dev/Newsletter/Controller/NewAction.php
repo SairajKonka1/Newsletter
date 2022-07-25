@@ -1,6 +1,6 @@
 <?php
 
-namespace PHPNL\Newsletter\Controller\Override;
+namespace I95dev\Newsletter\Controller;
 
 use Magento\Framework\App\ObjectManager;
 

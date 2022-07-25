@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+?php
 /**
  * GiaPhuGroup Co., Ltd.
  *
@@ -19,7 +18,13 @@
  * @copyright   Copyright (c) 2019-2020 GiaPhuGroup Co., Ltd. All rights reserved. (http://www.giaphugroup.com/)
  * @license     https://www.giaphugroup.com/LICENSE.txt
  */
--->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
-    <preference for="Magento\Newsletter\Controller\Subscriber\NewAction" type="PHPNL\Newsletter\Controller\Override\NewAction" />
-</config>
+
+ /** @var \Magento\Framework\View\Element\Js\Components $block */
+?>
+<script type="text/x-magento-init">
+    {
+        "#newsletter-validate-detail": {
+            "I95dev_Newsletter/js/newsletter-subscription": {}
+        }
+    }
+</script>

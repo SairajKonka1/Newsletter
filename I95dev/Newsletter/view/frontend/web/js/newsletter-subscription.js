@@ -25,7 +25,7 @@ define([
 ], function ($, $t) {
     'use strict';
 
-    $.widget('PHPNL.Newsletter', {
+    $.widget('I95dev.Newsletter', {
 
         /** @inheritdoc */
         _create: function () {
@@ -78,5 +78,5 @@ define([
         }
     });
 
-    return $.PHPNL.Newsletter;
+    return $.I95dev.Newsletter;
 });
